@@ -2,3 +2,4 @@ loguru
 faster-whisper
 numpy
 torch
+openai

@@ -6,7 +6,7 @@ A self-hosted open-source voice assistant.
 
 - [x] Voice Activity Detection (VAD)
 - [x] Text-to-Speech (TTS) using whisper
-- [ ] Perplexity AI responses
+- [x] Perplexity AI responses
 - [ ] Speech-to-Text (STT)
 
 ## Development
