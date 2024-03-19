@@ -43,14 +43,14 @@ if __name__ == "__main__":
                         "[%.2fs -> %.2fs] %s"
                         % (segment.start, segment.end, segment.text)
                     )
-                    logger.info("user: %s " % segment.text)
+                    logger.info("👤 user: %s " % segment.text)
                     messages.append({"role": "user", "content": segment.text})
                     response = client.chat.completions.create(
                         model=OPENAI_MODEL,
                         messages=messages,
                     )
                     response_content = response.choices[0].message.content
-                    logger.info("gecko: %s" % response_content)
+                    logger.info("🦎 gecko: %s" % response_content)
                     messages.append(
                         {
                             "role": "assistant",
