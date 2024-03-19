@@ -11,6 +11,8 @@ A self-hosted open-source voice assistant.
 
 ## Development
 
+It is known to work on python 3.12.
+
 ```bash
 pip install -r requirements.txt
 ```
