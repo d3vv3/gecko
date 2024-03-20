@@ -2,4 +2,6 @@ loguru
 faster-whisper
 numpy
 torch
+torchaudio
 openai
+PyAudio
